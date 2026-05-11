@@ -1,0 +1,21 @@
+:root{
+    --fundo-escudo: #0B0616;
+    --fundo-claro: #221C2D;
+    --roxo-destaque: #7A3BFF;
+    --cinza: #D6D2E6;
+    --fonte-claro: #ffffff;
+
+    --tamanho-titulo: 50px;
+    --tamanho-texto-btn: 17px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-padrao);
+}
+
+.layout_guide{
+    width: 80%;
+}
