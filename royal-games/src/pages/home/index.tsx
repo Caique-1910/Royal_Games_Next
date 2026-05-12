@@ -1,6 +1,7 @@
 import Header from "@/components/header/header";
 import styles from "./home.module.css"
 import Footer from "@/components/footer/footer";
+import Listagem from "@/components/listagem/listagem";
 
 const Home = () => {
     return (
@@ -17,25 +18,30 @@ const Home = () => {
                     <img src="../imgs/ImagemBanner.png" alt="" />
                 </section>
 
-                <section>
-                    <h2>Catalogo de jogos</h2>
-                    <hr></hr>
-                    sadfisdagui
+                <section id={styles.catalogo}>
+                    <div className={styles.cardsCat}>
+                        <h2>Catálogo de jogos</h2>
+                        <hr className={styles.linha1}></hr>
+                        <div className={styles.cardsCat}>
+
+                        <Listagem />
+                        </div>
+                    </div>
                 </section>
 
                 <section id={styles.curiosidade}>
                     <h2>Jogos online podem afetar o comportamento humano?</h2>
-                    <hr></hr>
+                    <hr className={styles.linha2}></hr>
 
-                    <div>
+                    <div className={styles.div_imgs}>
                         <img src="../imgs/Group10.png" alt="" />
                         <img src="../imgs/csgo.png" alt="" />
                     </div>
 
 
-                    <div>  <p> Estudos indicam que jogos podem alterar o comportamento humano…</p> <b></b>
+                    <div className={styles.div_textos}>  <p> Estudos indicam que jogos podem alterar o comportamento humano…</p> <b></b>
                         <p>Principalmente quando o time resolve testar sua paciência em plena partida ranqueada.</p>
-                        </div>
+                    </div>
                 </section>
             </main>
             <Footer />

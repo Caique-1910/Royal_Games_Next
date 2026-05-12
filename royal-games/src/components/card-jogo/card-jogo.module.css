@@ -1,0 +1,29 @@
+#card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: #938BAE solid 2px;
+    border-radius: 15px;
+    width: 280px;
+    height: 400px;
+    padding: 1%;
+    gap: 30px;
+    color: var(--fonte-claro);
+}
+
+.img {
+    width: 80%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.btnDetal{
+    background-color: var(--vermelho-destaque);
+    color: var(--fonte-claro);
+    height: 100%;
+    width: 100px;
+    border-radius: 5px;
+}
