@@ -7,8 +7,8 @@ const Home = () => {
         <>
             <Header />
             <main>
-                <section>
-                    <div>
+                <section id={styles.banner}>
+                    <div className={styles.textos_banner}>
                         <h2>Conheça nossos jogos!</h2>
                         <p>
                             Navegue por títulos de todas as gerações, descubra plataformas, gêneros e detalhes completos antes de escolher sua próxima aventura. Seu próximo jogo favorito começa aqui.
@@ -20,17 +20,22 @@ const Home = () => {
                 <section>
                     <h2>Catalogo de jogos</h2>
                     <hr></hr>
+                    sadfisdagui
                 </section>
 
-                <section>
+                <section id={styles.curiosidade}>
+                    <h2>Jogos online podem afetar o comportamento humano?</h2>
+                    <hr></hr>
+
                     <div>
-                        <p>Jogos online podem afetar o comportamento humano?</p>
-                        <hr></hr>
                         <img src="../imgs/Group10.png" alt="" />
                         <img src="../imgs/csgo.png" alt="" />
-                        <p> Estudos indicam que jogos podem alterar o comportamento humano…</p> <b></b>
-                        <p>Principalmente quando o time resolve testar sua paciência em plena partida ranqueada.</p>
                     </div>
+
+
+                    <div>  <p> Estudos indicam que jogos podem alterar o comportamento humano…</p> <b></b>
+                        <p>Principalmente quando o time resolve testar sua paciência em plena partida ranqueada.</p>
+                        </div>
                 </section>
             </main>
             <Footer />
