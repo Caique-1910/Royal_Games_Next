@@ -18,7 +18,7 @@ const Home = () => {
                     <img src="../imgs/ImagemBanner.png" alt="" />
                 </section>
 
-                <section id={styles.catalogo}>
+                <section className={styles.catalogo} id={styles.catalogo}>
                     <div className={styles.cardsCat}>
                         <h2>Catálogo de jogos</h2>
                         <hr className={styles.linha1}></hr>

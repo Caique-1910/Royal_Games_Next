@@ -7,7 +7,7 @@ const CardJogo = () => {
                 <img src="../imgs/Rectangle16.png" alt="" className={styles.img}/>
                 <h3>Lol</h3>
                 <p>R$70,00</p>
-                <Link href ="/detalhes"><button className={styles.btnDetal}>Detalhes</button></Link>
+                <Link href ="/detalhe-jogo"><button className={styles.btnDetal}>Detalhes</button></Link>
             </article>
         )
 }

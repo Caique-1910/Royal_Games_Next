@@ -10,8 +10,8 @@ const Header = () => {
             <img src="../imgs/LogoHeader.png" alt="" />
 
             <nav className={styles.nav}>
-                <Link href="">Catálogo</Link>
-                <Link href=""><button className={styles.botao}>Login</button></Link>
+                <Link href="#catalogo">Catálogo</Link>
+                <Link href="/login"><button className={styles.botao}>Login</button></Link>
             </nav>
         </header>
     )

@@ -50,7 +50,7 @@
 }
 
 
-#catalogo {
+.catalogo {
     background-color: var(--fundo-escudo);
     color: var(--fonte-claro);
     min-height: 100vh;
