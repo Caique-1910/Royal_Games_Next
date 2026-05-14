@@ -1,0 +1,161 @@
+#main {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    background-image: radial-gradient(var(--fundo-escudo), var(--fundo-claro), var(--roxo-destaque));
+    color: var(--cinza);
+    padding: 2%;
+    width: 100%;
+}
+
+#main label{
+    font-family: var(--font-padrao);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#main h2{
+    font-family: var(--font-padrao);
+    font-weight: 300;
+    font-size: 30px;
+}
+
+
+.formulario {
+    display: grid;
+    gap: 20px;
+    width: 90%;
+    height: 100%;
+    padding: 4%;
+    border: #938BAE solid 3px;
+    border-radius: 10px;
+}
+
+.div_title_form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.linha1{
+     background-color: var(--vermelho-destaque);
+    width: 100%;
+    height: 2px;
+    border: none;
+}
+
+.div_forms{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.esquerda_form{
+    display: grid;
+    gap: 4px;
+}
+
+
+.direita_form{
+    display: grid;
+    gap: 3px;
+}
+
+.forms{
+    display: grid;
+    gap: 30px;
+    justify-items: center;
+}
+
+.div_interna_form{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.div_mid_form{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.div_inf_form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.camp_descri{
+    display: grid;
+    gap: 3px;
+}
+
+.camp_plata{
+    display: grid;
+    gap: 3px;
+}
+
+.camp_img{
+    display: grid;
+    gap: 3px;
+}
+
+.camp_valor{
+    display: grid;
+     gap: 3px;
+}
+
+.camp_genero{
+    display: grid;
+    gap: 3px;
+}
+
+.camp_classi{
+    display: grid;
+    gap: 3px;
+}
+
+
+.camp_nome{
+    display: grid;
+    justify-content: start;
+    gap: 3px;
+}
+
+
+.textarea{
+    height: 100px;
+    width: 100%;
+    padding: 2%;
+    resize: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+
+#lista{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+
+.cardscat{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.linha2 {
+    background-color: var(--vermelho-destaque);
+    width: 60%;
+    height: 2px;
+    border: none;
+}

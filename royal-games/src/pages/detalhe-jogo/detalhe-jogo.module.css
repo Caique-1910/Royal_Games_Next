@@ -4,12 +4,87 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    color: var(--cinza);
+    padding: 5%;
+    background-image: radial-gradient(var(--fundo-escudo), var(--fundo-claro),var(--roxo-destaque) );
 }
 
 .div_info{
     display: flex;
+    flex-direction: column;
+    text-align: center;
     align-items: center;
+    padding: 3%;
+    gap: 26px;
+    width: 65%;
+    height: 60%;
+    border: #8D869D solid 3px;
+    border-radius: 10px;
+}
+
+.div_titulo{
+    width: 20%;
+    display: grid;
+    gap: 10px;
+}
+
+.linha{
+    height: 2px;
+    background-color: var(--vermelho-destaque);
+    width: 100%;
+    border: none;
+}
+
+
+.superior{
+    display: flex;
+    justify-content: center;
     gap: 20px;
+    text-align: justify;
+    width: 80%;
+}
+
+.div_sup_text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    width: 40%;
+}
+
+.superior img{
+    width: 40%;
+}
+
+.inferior{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    gap: 50px;
+}
+
+.esquerda{
+    display: grid;
+    gap: 20px;
+    text-align: start;
     width: 50%;
+}
+
+.direita{
+    width: 50%;
+    display: grid;
+    gap: 20px;
+    height: 60%;
+    text-align: justify;
+}
+
+.camp_info{
+    display: grid;
+    gap: 7px;
+}
+
+.camp_infoD{
+    display: grid;
+    gap: 7px;
 }
 

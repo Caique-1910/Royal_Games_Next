@@ -69,6 +69,12 @@
     gap: 20px;
 }
 
+#lista{
+    display: grid;
+    text-align: center;
+    gap: 20px;
+}
+
 
 .linha1 {
     background-color: var(--vermelho-destaque);
