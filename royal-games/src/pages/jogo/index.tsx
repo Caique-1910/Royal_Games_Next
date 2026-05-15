@@ -22,26 +22,26 @@ const Jogo = () => {
                                     <div className={styles.div_sup_form}>
                                         <div className={styles.camp_nome}>
                                             <label htmlFor="">Nome:</label>
-                                            <input type="text" />
+                                            <input className={styles.input_nome} type="text" />
                                         </div>
                                     </div>
 
                                     <div className={styles.div_mid_form}>
                                         <div className={styles.camp_valor}>
                                             <label htmlFor="">Valor:</label>
-                                            <input type="text" />
+                                            <input className={styles.input_valor} type="text" />
                                         </div>
 
                                         <div className={styles.camp_genero}>
                                             <label htmlFor="">Gênero:</label>
-                                            <select name="" id="">
+                                            <select className={styles.input_genero}name="" id="">
                                                 <option value=""></option>
                                             </select>
                                         </div>
 
                                         <div className={styles.camp_classi}>
                                             <label htmlFor="">Classificação Indicativa:</label>
-                                            <select name="" id="">
+                                            <select className={styles.input_classi} name="" id="">
                                                 <option value=""></option>
                                             </select>
                                         </div>
@@ -51,14 +51,14 @@ const Jogo = () => {
                                         <div className={styles.div_inf_form}>
                                             <div className={styles.camp_plata}>
                                                 <label htmlFor="">Platarforma:</label>
-                                                <select name="" id="">
+                                                <select className={styles.input_plata} name="" id="">
                                                     <option value=""></option>
                                                 </select>
                                             </div>
 
                                             <div className={styles.camp_img}>
                                                 <label htmlFor="">Imagem:</label>
-                                                <input type="file" />
+                                                <input className={styles.input_img} type="file" />
                                             </div>
                                         </div>
 
@@ -76,7 +76,7 @@ const Jogo = () => {
                             </div>
                             
                             <div className={styles.div_btn}>
-                                <button type="submit">Cadastrar</button>
+                                <button className={styles.btn} type="submit">Cadastrar</button>
                             </div>
 
                         </form>
@@ -84,11 +84,14 @@ const Jogo = () => {
                 </section>
 
                 <section className={styles.lista} id={styles.lista}>
-                    <div className={styles.cardsCat}>
+                    
+                    <div id={styles.cardsCat}>
+                        <div className={styles.titulo_lista}>
                         <h2>Lista de Jogos</h2>
                         <hr className={styles.linha2}></hr>
-                        
-                        <div className={styles.cardsCat}>
+                        </div>
+
+                        <div className={styles.cardCat}>
                             <Listagem />
                         </div>
                     </div>
