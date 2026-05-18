@@ -47,15 +47,10 @@ const DetalheJogo = () => {
                             </div>
                             <div className={styles.direita}>
                                 <div className={styles.camp_infoD}>
-                                    <h2>Categorias:</h2>
-                                    <ul>
-                                        <li>Premiado</li>
-                                    </ul>
-                                </div>
-                                <div className={styles.camp_infoD}>
                                     <h2>Gêneros:</h2>
                                     <ul>
                                         <li>Ação</li>
+                                        <li>Moba</li>
                                     </ul>
                                 </div>
                             </div>
